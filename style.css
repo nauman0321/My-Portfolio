@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18, 18, 62);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(157, 157, 218);
+    font-size: 1.04rem;
+}
+
+main hr {
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 60px 84px;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 120px 0;
+}
+
+.firstSection>div {
+    width: 30%;
+}
+
+.leftSection {
+    font-size: 3rem;
+}
+
+.rightSection img {
+    width: 100%;
+    max-width: 350px;
+    /* Adjust as per preference */
+    border-radius: 50%;
+    /* Circular image */
+    border: 5px solid rgb(155, 89, 218);
+    box-shadow: 0 0 20px rgba(155, 89, 218, 0.6);
+    transition: transform 0.3s ease-in-out;
+}
+
+.rightSection img:hover {
+    transform: scale(1.05);
+}
+
+.Purple {
+    color: rgb(155, 89, 218);
+}
+
+#element {
+    color: rgb(155, 89, 218);
+}
+
+.aboutSection,
+.educationSection,
+.projectsSection,
+.contactSection {
+    max-width: 80vw;
+    margin: auto;
+    margin-bottom: 60px;
+    padding: 20px;
+    background-color: rgb(18, 18, 62);
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.aboutSection h1,
+.educationSection h1,
+.projectsSection h1,
+.contactSection h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: rgb(155, 89, 218);
+}
+
+.aboutSection p,
+.educationSection p,
+.projectsSection p,
+.contactSection p {
+    margin: 10px 0;
+    line-height: 1.6;
+    text-align: justify;
+    color: white;
+}
+
+.contactSection form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contactSection label {
+    margin: 10px 0 5px;
+}
+
+.contactSection input,
+.contactSection textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.contactSection button {
+    padding: 10px;
+    background-color: rgb(155, 89, 218);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contactSection button:hover {
+    background-color: rgb(123, 67, 178);
+}
+
+footer {
+    background-color: #0e0e1a;
+    padding: 20px 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer>div {
+    width: 223px;
+}
+
+footer .footer-rights {
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
+}

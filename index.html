@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nauman Ghansar's portfolio showcasing web development skills and projects.">
+    <meta name="keywords" content="Web Developer, Portfolio, Nauman Ghansar, HTML, CSS, JavaScript, React, Node.js">
+    <title>Nauman Web Developer - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Nauman's Portfolio</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection" id="home">
+            <div class="leftSection">
+                Hi, My name is <span class="Purple">Nauman Ghansar</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+            </div>
+            <div class="rightSection"><img src="pro.jpg" alt="A representation of Nauman's web development work">
+            </div>
+        </section>
+        <hr>
+        <section class="aboutSection" id="about">
+            <h1>About Me</h1>
+            <p>Passionate about web development, I focus on crafting
+                high-quality, responsive, and performance-driven websites. Constantly learning and evolving, I enjoy
+                working with new technologies to push the boundaries of innovation.</p>
+            <p>I specialize in creating responsive and user-friendly websites using HTML, CSS, and JavaScript. I am also
+                proficient in frameworks like React and backend technologies like Node.js.</p>
+            <p>In my free time, I enjoy working on personal projects, exploring new technologies, and contributing to
+                open-source projects. My goal is to create impactful web applications that enhance user experience and
+                accessibility.</p>
+            <p>Fun Fact: When I'm not coding, you can find me playing Football and VolleyBall.</p>
+        </section>
+        <hr>
+        <section class="educationSection" id="education">
+            <h1>Education</h1>
+            <p><b>Bachelor of Computer Applications (Science)</b></p>
+            <p>Pune University, Year of Graduation: 2024</p>
+            <p>Relevant Coursework: Web Development, Data Science, Software Engineering, Operating System</p>
+            <p><b>12th HSC</b></p>
+            <p>Year of Passing: 2020</p>
+            <p>Relevant Coursework: Physics, Chemistry, Biology, Information Technology</p>
+        </section>
+        <hr>
+        <section class="projectsSection" id="projects">
+            <h1>Projects</h1>
+            <p><strong>Project 1: Online E-Store</strong>: An e-commerce platform enabling seamless user interaction and
+                management. <b>User Authentication</b>: Secure registration and login functionality, <b>Admin Panel</b>:
+                CRUD operations for managing products and orders with real-time processing tools. <b>Technologies</b>:
+                HTML5, CSS3, JavaScript, SQLite, and Django framework.</p>
+            <p><strong>Project 2: Responsive Portfolio Website</strong>: Created a responsive and interactive portfolio
+                website to showcase skills and projects. <b>Contact Form</b>: Functional form with real-time validation
+                using JavaScript, <b>Performance Optimization</b>: Enhanced loading speed and cross-browser
+                compatibility, <b>Technologies</b>: HTML5, CSS3, JavaScript.</p>
+        </section>
+        <section class="contactSection" id="contact">
+            <h1>Contact Me</h1>
+            <form id="contactForm" action="https://example.com/submit" method="POST">
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Nauman's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            naumanportfolio.com | All Rights Reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer.', 'Java Developer.', 'Web Designer.', 'UI/UX Developer.'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
